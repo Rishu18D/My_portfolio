@@ -1,0 +1,242 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+  color: #000; /* black color for links and logo */
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(0, 0, 0, 0.7); /* slightly transparent black on hover */
+}
+
+/* Align navbar links from middle to right */
+.navbar-collapse {
+  justify-content: flex-end; /* Align items to the end (right) */
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right) */
+}
+
+.nav-item {
+  margin-left: 20px; /* Standard spacing between items */
+}
+
+.nav-item:first-child {
+  margin-left: auto; /* Push the first item to the middle */
+}
+
+
+/* Sections */
+section {
+  padding: 5rem 2rem;
+}
+
+/* ... rest of the CSS remains the same ... */
+/* Sections */
+section {
+  padding: 5rem 2rem;
+}
+
+/* ... rest of the CSS remains the same ... */
+
+/* Sections */
+section {
+  padding: 5rem 2rem;
+}
+
+/* Profile */
+#profile {
+  background-color: #fff;
+  padding-top: 8rem;
+  text-align: center;
+}
+
+#profile h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#profile p.lead {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 0 1rem;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: translateY(-5px);
+}
+
+.social-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+/* About */
+#about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Experience */
+#experience {
+  background-color: #fff;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#experience h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#experience p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Projects */
+#projects {
+  background-color: #f5f5f5;
+}
+
+#projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+.btn-primary,
+.btn-secondary {
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+}
+
+.btn-secondary {
+  background-color: #ccc;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #999;
+}
+
+/* Contact */
+#contact {
+  background-color: #fff;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #000;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
